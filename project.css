@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    background-image: url('death-note-background.jpg'); /* Add a Death Note-themed background */
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: #e0e0e0;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  header .logo {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #c62828; /* Red color for Death Note theme */
+  }
+  
+  header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Confession Form */
+  .confession-form {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Red shadow for Death Note theme */
+    margin-bottom: 20px;
+  }
+  
+  .confession-form h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #c62828; /* Red color for Death Note theme */
+  }
+  
+  .confession-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .confession-form select,
+  .confession-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c62828; /* Red border for Death Note theme */
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    resize: vertical;
+    background-color: #333;
+    color: #e0e0e0;
+  }
+  
+  .confession-form textarea {
+    height: 150px;
+  }
+  
+  .char-counter {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #c62828; /* Red color for Death Note theme */
+    margin-bottom: 10px;
+  }
+  
+  .confession-form button {
+    background-color: #c62828; /* Red color for Death Note theme */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .confession-form button:hover {
+    background-color: #b71c1c; /* Darker red on hover */
+  }
+  
+  /* Confessions List */
+  .confessions-list {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Red shadow for Death Note theme */
+  }
+  
+  .confessions-list h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #c62828; /* Red color for Death Note theme */
+  }
+  
+  .confession {
+    background-color: #333;
+    padding: 15px;
+    border-left: 5px solid #c62828; /* Red border for Death Note theme */
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .confession .category {
+    font-weight: bold;
+    color: #c62828; /* Red color for Death Note theme */
+    margin: 0 0 5px;
+  }
+  
+  .confession .text {
+    margin: 0 0 10px;
+  }
+  
+  .confession .timestamp {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: #e0e0e0;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
